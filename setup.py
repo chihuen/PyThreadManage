@@ -2,8 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="PyThreadManage",
-    version="0.1",
+    version="0.5",
     description="encapsulate functions of thread module",
+    long_description='',
     license="MIT Licence",
 
     url="https://github.com/chihuen/PyThreadManage",
@@ -11,7 +12,9 @@ setup(
     author_email="chihuenlau@gmail.com",
 
     packages=find_packages(),
-    platforms="any",
+    # package_dir={'': ''},
+    # package_data={'data': []},
+    # include_package_data=False,
     install_requires=[],
 
     scripts=[],
